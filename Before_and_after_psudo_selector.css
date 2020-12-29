@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    color: white;
+}
+
+header::before{
+    background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+.Navigation{
+    display: flex;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    padding: 20px 23px;
+}
+section{
+    height: 300px;
+    /* border: 2px solid red; */
+    margin:3px 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* section::before{
+    content: "This is Section Print help from Css";
+}
+section::after{
+    content: "This is After Section print help of css";
+} */
+h1{
+    font-size: 4rem;
+}
+p{
+    text-align: center;
+}
+.card
+{
+    margin-top:200px !important ;   
+    color: black;
+    float: left;
+    margin: 23px 34px ;
+}

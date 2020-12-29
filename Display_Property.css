@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.Top{
+    margin:4px 0px auto;
+    border: 2px solid green;
+    width: 97%;
+    display: block;
+}
+img{
+    width: 70px;
+    height: 70px;
+    margin:4px auto;
+    display: block;
+}
+h3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: auto;
+}
+.box{
+    border: 2px solid yellow;
+    color: white;
+    background-color: tomato;
+    width: 32%;
+    padding: 2px;
+    margin: 4px auto;
+    display: inline-block;
+}

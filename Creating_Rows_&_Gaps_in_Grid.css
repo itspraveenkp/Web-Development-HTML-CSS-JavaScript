@@ -1,0 +1,11 @@
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr;
+    grid-auto-rows: 3fr;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 2rem;
+}
+.box{
+    background-color: greenyellow;
+    border: 2px solid red;
+}

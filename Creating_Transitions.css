@@ -1,0 +1,22 @@
+#box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+    /* transition: background-color 1s ease-in-out 3s; */
+    transition: all;
+}
+
+#box:hover{
+    background-color: turquoise;
+    height: 400px;
+    width:400px;
+    border-radius: 100px;
+    font-size: 35px;
+}

@@ -1,0 +1,31 @@
+/* id selector */
+#firstpara{
+    color: green;
+}
+
+/* id selector */
+#Secondpara{
+    color:blue;
+}
+
+/* class selector */
+.redelement{
+    background-color: burlywood;
+}
+
+/* class selector */
+.bgblue{
+    font-size: 200%;
+}
+
+/* grouping selector */
+header,footer{
+    background-color: pink;
+}
+
+/* Element selector */
+header{
+    color:yellow;
+    border: black;
+}
+

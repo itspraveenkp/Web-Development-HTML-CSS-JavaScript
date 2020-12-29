@@ -1,0 +1,28 @@
+
+.container{
+    border: 2px solid rgb(14, 189, 14);
+    background-color: rgb(195, 219, 171);
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px;
+}
+.btn{
+    background-color: rgb(238, 97, 15);
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    background-color: yellow;    
+}
+.btn:hover{
+    color: blue;
+    background-color: cornsilk;
+    border: 2px solid black;
+}
+

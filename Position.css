@@ -1,0 +1,17 @@
+.container{
+    height: 2000px;
+}
+.box{
+    border: 2px solid gold;
+    width: 240px;
+    margin: 2px;
+    padding: 4px;
+    display: inline-block;
+    background-color: lightcyan;
+}
+#box3{
+    /* position: absolute;
+    margin: 29px; */
+    position: fixed;
+    margin: 150px;
+}

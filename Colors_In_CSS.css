@@ -1,0 +1,16 @@
+#firstpara{
+    color: green;/*keybord*/
+}
+
+#Secondpara{
+    color: rgb(148, 148, 16);/*RBG value*/
+}
+
+#Thirdpara{
+    color:#ff0; /*Hex values*/
+}
+
+.Design{
+    font-size: 30px;
+    background-color: sandybrown;
+}

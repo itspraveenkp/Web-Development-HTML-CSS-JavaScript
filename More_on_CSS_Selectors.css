@@ -1,0 +1,20 @@
+h1{
+    background-color: red;
+    font-weight: bold;
+    text-align: center;
+}
+/* div p{
+    background-color: mediumorchid;
+    font-weight: bold;
+    
+} */
+
+  div > p{
+    background-color: mediumorchid;
+    font-weight: bold;
+}
+
+div + p{
+    background-color: mediumspringgreen;
+}
+

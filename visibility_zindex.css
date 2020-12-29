@@ -1,0 +1,22 @@
+
+.box{
+    width: 230px;
+    display: block;
+}
+#box1{
+    background-color: red;
+    position: relative;
+    z-index: -1px;
+}
+#box2{
+    position: relative;
+    top:-50px;
+    z-index: 1;
+    background-color:green;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: yellow;
+}

@@ -1,0 +1,54 @@
+.container{
+    background-color: skyblue;
+}
+.box{
+    background-color: tomato;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    
+    /* animation-name: Animation; */
+
+    animation-name: Animation2;
+
+    /* animation-duration: 2s; */
+    animation-duration: 0.9s;
+    animation-iteration-count: 3;
+    /* animation-iteration-count: infinite; */
+    /* animation-fill-mode: forwards; */
+    /* -moz-animation-timing-function: ease-in-out; */
+    /* animation-delay: 2s; */
+    /* animation-direction: reverse;     */
+}
+
+@keyframes Animation2{
+    0%{
+        top:0px;
+        left: 0px;
+    }
+    25%{
+        top:250px;
+        left: 0px;
+    }
+    50%{
+        top:250px;
+        left: 250px;
+    }
+    75%{
+        top:0px;
+        left: 250px;
+    }
+    100%{
+        top:0px;
+        left: 0px;
+    }
+}
+
+@keyframes  Animation{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 900px;
+    }
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+p{
+    color: green;
+    /* font-family: cursive; */
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    line-height: 1.5em; /* for space between row */
+}
+
+span{
+    font-weight:bold;
+    font-size: 33px;
+    font-style: italic;
+}
